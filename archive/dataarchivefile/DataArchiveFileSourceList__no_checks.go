@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataArchiveFileSourceList) validateGetParameters(index *float
 	return nil
 }
 
-func (d *jsiiProxy_DataArchiveFileSourceList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataArchiveFileSourceList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (f *jsiiProxy_FileSourceList) validateGetParameters(index *float64) error {
 	return nil
 }
 
-func (f *jsiiProxy_FileSourceList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FileSourceList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 
