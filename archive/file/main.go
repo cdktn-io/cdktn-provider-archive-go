@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-archive.file.File",
+		"@cdktn/provider-archive.file.File",
 		reflect.TypeOf((*File)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-archive.file.FileConfig",
+		"@cdktn/provider-archive.file.FileConfig",
 		reflect.TypeOf((*FileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-archive.file.FileSource",
+		"@cdktn/provider-archive.file.FileSource",
 		reflect.TypeOf((*FileSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-archive.file.FileSourceList",
+		"@cdktn/provider-archive.file.FileSourceList",
 		reflect.TypeOf((*FileSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -130,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-archive.file.FileSourceOutputReference",
+		"@cdktn/provider-archive.file.FileSourceOutputReference",
 		reflect.TypeOf((*FileSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

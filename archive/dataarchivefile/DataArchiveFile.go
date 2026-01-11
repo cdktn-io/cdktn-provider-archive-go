@@ -5,10 +5,10 @@ package dataarchivefile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-archive-go/archive/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-archive-go/archive/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-archive-go/archive/v11/dataarchivefile/internal"
+	"github.com/cdktn-io/cdktn-provider-archive-go/archive/v11/dataarchivefile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -577,7 +577,7 @@ func NewDataArchiveFile(scope constructs.Construct, id *string, config *DataArch
 	j := jsiiProxy_DataArchiveFile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFile",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -590,7 +590,7 @@ func NewDataArchiveFile_Override(d DataArchiveFile, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFile",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFile",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -751,7 +751,7 @@ func DataArchiveFile_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFile",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -786,7 +786,7 @@ func DataArchiveFile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFile",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -805,7 +805,7 @@ func DataArchiveFile_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFile",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFile",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -824,7 +824,7 @@ func DataArchiveFile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFile",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func DataArchiveFile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFile",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFile",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package file
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-archive-go/archive/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-archive-go/archive/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-archive-go/archive/v11/file/internal"
+	"github.com/cdktn-io/cdktn-provider-archive-go/archive/v11/file/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewFileSourceList(terraformResource cdktf.IInterpolatingParent, terraformAt
 	j := jsiiProxy_FileSourceList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-archive.file.FileSourceList",
+		"@cdktn/provider-archive.file.FileSourceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewFileSourceList_Override(f FileSourceList, terraformResource cdktf.IInter
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-archive.file.FileSourceList",
+		"@cdktn/provider-archive.file.FileSourceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		f,
 	)

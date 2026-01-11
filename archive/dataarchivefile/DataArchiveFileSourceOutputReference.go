@@ -5,9 +5,9 @@ package dataarchivefile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-archive-go/archive/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-archive-go/archive/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-archive-go/archive/v11/dataarchivefile/internal"
+	"github.com/cdktn-io/cdktn-provider-archive-go/archive/v11/dataarchivefile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataArchiveFileSourceOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_DataArchiveFileSourceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFileSourceOutputReference",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFileSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataArchiveFileSourceOutputReference_Override(d DataArchiveFileSourceOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFileSourceOutputReference",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFileSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

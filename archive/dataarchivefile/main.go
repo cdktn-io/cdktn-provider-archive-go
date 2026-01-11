@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFile",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFile",
 		reflect.TypeOf((*DataArchiveFile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFileConfig",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFileConfig",
 		reflect.TypeOf((*DataArchiveFileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFileSource",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFileSource",
 		reflect.TypeOf((*DataArchiveFileSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFileSourceList",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFileSourceList",
 		reflect.TypeOf((*DataArchiveFileSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFileSourceOutputReference",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFileSourceOutputReference",
 		reflect.TypeOf((*DataArchiveFileSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

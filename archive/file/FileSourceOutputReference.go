@@ -5,9 +5,9 @@ package file
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-archive-go/archive/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-archive-go/archive/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-archive-go/archive/v11/file/internal"
+	"github.com/cdktn-io/cdktn-provider-archive-go/archive/v11/file/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewFileSourceOutputReference(terraformResource cdktf.IInterpolatingParent, 
 	j := jsiiProxy_FileSourceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-archive.file.FileSourceOutputReference",
+		"@cdktn/provider-archive.file.FileSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewFileSourceOutputReference_Override(f FileSourceOutputReference, terrafor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-archive.file.FileSourceOutputReference",
+		"@cdktn/provider-archive.file.FileSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		f,
 	)

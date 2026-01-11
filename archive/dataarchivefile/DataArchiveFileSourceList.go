@@ -5,9 +5,9 @@ package dataarchivefile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-archive-go/archive/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-archive-go/archive/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-archive-go/archive/v11/dataarchivefile/internal"
+	"github.com/cdktn-io/cdktn-provider-archive-go/archive/v11/dataarchivefile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataArchiveFileSourceList(terraformResource cdktf.IInterpolatingParent, 
 	j := jsiiProxy_DataArchiveFileSourceList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFileSourceList",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFileSourceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataArchiveFileSourceList_Override(d DataArchiveFileSourceList, terrafor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-archive.dataArchiveFile.DataArchiveFileSourceList",
+		"@cdktn/provider-archive.dataArchiveFile.DataArchiveFileSourceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)
