@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/archive/2.7.1/docs archive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/archive/2.8.0/docs archive}.
 type ArchiveProvider interface {
 	cdktn.TerraformProvider
 	Alias() *string
@@ -195,7 +195,7 @@ func (j *jsiiProxy_ArchiveProvider) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/archive/2.7.1/docs archive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/archive/2.8.0/docs archive} Resource.
 func NewArchiveProvider(scope constructs.Construct, id *string, config *ArchiveProviderConfig) ArchiveProvider {
 	_init_.Initialize()
 
@@ -213,7 +213,7 @@ func NewArchiveProvider(scope constructs.Construct, id *string, config *ArchiveP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/archive/2.7.1/docs archive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/archive/2.8.0/docs archive} Resource.
 func NewArchiveProvider_Override(a ArchiveProvider, scope constructs.Construct, id *string, config *ArchiveProviderConfig) {
 	_init_.Initialize()
 
