@@ -145,6 +145,14 @@ func (d *jsiiProxy_DataArchiveFile) validatePutSourceParameters(value interface{
 	return nil
 }
 
+func (d *jsiiProxy_DataArchiveFile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateDataArchiveFile_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

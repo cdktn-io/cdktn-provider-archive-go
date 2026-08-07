@@ -15,6 +15,10 @@ func (a *jsiiProxy_ArchiveProvider) validateOverrideLogicalIdParameters(newLogic
 	return nil
 }
 
+func (a *jsiiProxy_ArchiveProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateArchiveProvider_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

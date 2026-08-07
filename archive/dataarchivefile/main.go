@@ -54,6 +54,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberMethod{JsiiMethod: "putSource", GoMethod: "PutSource"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetExcludes", GoMethod: "ResetExcludes"},
 			_jsii_.MemberMethod{JsiiMethod: "resetExcludeSymlinkDirectories", GoMethod: "ResetExcludeSymlinkDirectories"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOutputFileMode", GoMethod: "ResetOutputFileMode"},

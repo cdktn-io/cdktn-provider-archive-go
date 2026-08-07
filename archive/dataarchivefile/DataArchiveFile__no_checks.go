@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataArchiveFile) validatePutSourceParameters(value interface{
 	return nil
 }
 
+func (d *jsiiProxy_DataArchiveFile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataArchiveFile_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
