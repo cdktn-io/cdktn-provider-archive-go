@@ -5,10 +5,10 @@ package file
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-archive-go/archive/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-archive-go/archive/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-archive-go/archive/v14/file/internal"
+	"github.com/cdktn-io/cdktn-provider-archive-go/archive/v15/file/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
